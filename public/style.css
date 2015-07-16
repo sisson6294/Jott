@@ -1,0 +1,128 @@
+body {background-image: url(http://mindframe.co.za/images/Rendered-brushed-gold-or-bronze-background-texture.jpg);
+background-repeat: no-repeat; background-attachment: fixed;}
+
+
+.title {border-top: solid;
+		border-bottom: solid; 
+		border-color: gray; 
+		border-width: 6px;
+		padding: 15px;
+		margin: 10px;
+		font-size: 100px; 
+		text-align: center; 
+		font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+		background-color: white;
+		color: black;
+		letter-spacing: 10px;
+		font-weight: 10;
+		font-variant: small-caps;}
+
+ li {font-family: "Lucida Sans Unicode";} 
+
+.pictag {margin: 0 auto;}
+
+
+.caption{font-size: 25px;
+		color: white;
+		font-family: "Trebuchet MS";
+		font-style: oblique;
+		border-color: gray;
+		text-align: center;
+		background-color: rgba(255, 153, 102, .5);
+		width: 700px;
+		margin: 0 auto;
+}
+
+.contact{font-size: 25px;
+		color: #484848;
+		/* font-family: "Trebuchet MS", serif; */
+		font-style: oblique;
+		border-color: gray;
+		text-align: center;
+		background-color: rgba(219, 182, 220, .5);
+		position:    absolute;
+    	left:        50%;        /* Start with top left in the center */
+    	top:         50%;
+    	width:       500px;      /* The fixed width... */
+    	height:      250px;      /* ...and height */
+    	margin-left: -250px;     /* Shift over half the width */
+    	margin-top:  -125px;      /* Shift up half the height */
+		padding: 20px;
+		display: block;}
+
+.about{font-size: 25px;
+		color: #484848;
+		font-family: "Antic";
+		/*font-style: oblique;*/
+		border-color: gray;
+		text-align: center;
+		background-color: rgba(255, 255, 204, .5);
+		position:    absolute;
+    	left:        50%;        /* Start with top left in the center */
+    	top:         50%;
+    	width:       900px;      /* The fixed width... */
+    	height:      480px;      /* ...and height */
+    	margin-left: -450px;     /* Shift over half the width */
+    	margin-top:  -120px;      /* Shift up half the height */
+		padding: 25px;
+		display: block;
+		margin-bottom: 50px;}
+
+
+.captionone{font-size: 25px;
+		color: white;
+		font-family: "Trebuchet MS";
+		font-style: oblique;
+		border-color: gray;
+		text-align: center;
+		background-color: rgba(255, 153, 102, .5);
+		width: 700px;
+		margin: 0 auto;
+		margin-top: 20px;
+		padding: 10px;}
+img {border-style: solid;
+		display: block;
+		border-color: pink;
+		border-width: 13px;
+		margin-left: auto; margin-right: auto; margin-top: 40px;}
+
+/* Nav Bar below */
+
+
+.navbar {
+		display: block;
+		margin: 0 auto;
+		width: 1200px; 
+		border-top: solid;
+		border-bottom: solid; 
+		border-color: #FFE6B4; 
+		border-width: 7px;
+
+	}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 300px;
+    font-weight: bold;
+    color: #484848;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: gray;
+}
